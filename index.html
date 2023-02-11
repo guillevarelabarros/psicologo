@@ -11,37 +11,48 @@
 </head>
 <body>
 
+
+	<!-- BOTON "Volver Arriba" -->
+	<div class="btn-volver-arriba" id="btnVolverArriba">
+		<a href="#" class="volver-arriba">
+			<i class="fa-solid fa-arrow-up"></i>
+		</a>
+	</div>
+
+
+
+
 	<!-- Encabezado -->
 	<header>
 
 		<!-- Versíón Movil -->
 		<div class="menu-mobile">
 			<div class="barra">
-				<a href="#"><img src="img/logotipo.png" alt="Logo Psicologo"></a>
+				<a href="#" class="logo"><img src="img/logotipo.png" alt="Logo Psicologo"></a>
 				<a href="#" id="btnMenu"><i class="fa-sharp fa-solid fa-bars"></i></a>
 
 			</div>
 			<nav class="menu-principal">
 				<a href="#" class="volver-arriba">INICIO</a>
-				<a href="#"class="scroll-suave">PROYECTOS</a>
-				<a href="#"class="scroll-acercaDe">ACERCA DE</a>
-				<a href="#" class="scroll-equipo">NUESTRO EQUIPO</a>
-				<a href="#" class="scroll-suave">CONTACTO</a>
+				<a href="#proyectos"class="scroll-suave">PROYECTOS</a>
+				<a href="#acercaDe"class="scroll-acercaDe">ACERCA DE</a>
+				<a href="#equipo" class="scroll-equipo">NUESTRO EQUIPO</a>
+				<a href="#contacto" class="scroll-suave">CONTACTO</a>
 			</nav>
 		</div>
 
 		<!-- Versión escritorio -->
 		
 		<div class="menu-bar-pc">
-			<a href="#"><img src="img/logotipo.png" alt="Logo Psicologo"></a>
+			<a href="#" class="logo"><img src="img/logotipo.png" alt="Logo Psicologo"></a>
 
 
 			<nav class="menu-principal">
 				<a href="#" class="volver-arriba">INICIO</a>
-				<a href="#"class="scroll-suave">PROYECTOS</a>
-				<a href="#"class="scroll-acercaDe">ACERCA DE</a>
-				<a href="#" class="scroll-equipo">NUESTRO EQUIPO</a>
-				<a href="#" class="scroll-suave">CONTACTO</a>
+				<a href="#proyectos"class="scroll-suave">PROYECTOS</a>
+				<a href="#acercaDe"class="scroll-acercaDe">ACERCA DE</a>
+				<a href="#equipo" class="scroll-equipo">NUESTRO EQUIPO</a>
+				<a href="#contacto" class="scroll-suave">CONTACTO</a>
 			</nav>
 
 
@@ -59,15 +70,15 @@
 
 
 	<div class="fixed-header" id="fixedHeader">
-		<a href="#"><img src="img/logotipo.png" alt="Logo Psicologo"></a>
+		<a href="#" class="logo"><img src="img/logotipo.png" alt="Logo Psicologo"></a>
 
 
 		<nav class="menu-principal">
 			<a href="#" class="volver-arriba">INICIO</a>
-			<a href="#"class="scroll-suave">PROYECTOS</a>
-			<a href="#"class="scroll-acercaDe">ACERCA DE</a>
-			<a href="#" class="scroll-equipo">NUESTRO EQUIPO</a>
-			<a href="#" class="scroll-suave">CONTACTO</a>
+			<a href="#proyectos"class="scroll-suave">PROYECTOS</a>
+			<a href="#acercaDe"class="scroll-acercaDe">ACERCA DE</a>
+			<a href="equipo" class="scroll-equipo">NUESTRO EQUIPO</a>
+			<a href="#contacto" class="scroll-suave">CONTACTO</a>
 		</nav>
 
 
@@ -123,6 +134,16 @@
 
 		</section>
 
+
+		<div class="modal" id="modal">
+			<img src="" alt="">
+			<div class= "btn-cerrar" id="btnCerrar">
+				<i class="fa-solid fa-xmark"></i>
+			</div>
+		</div>
+
+
+
 		<!-- ACERCA DE -->
 
 
@@ -158,9 +179,9 @@
 				<i class="fa-solid fa-arrow-left"></i>
 			</div>
 			<div class="btn-siguiente" id="btnSiguiente">
-				<i class="fa-regular fa-arrow-right"></i>
+				<i class="fa-solid fa-arrow-right"></i>
 			</div>
-			
+
 		</section>
 
 
@@ -239,28 +260,23 @@
 									<div class="icono-info">
 										<i class="fa-solid fa-brush"></i>
 									</div>
+									<div class="texto-info">
+										<h4>Imaginamos y diseñamos</h4>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis esse totam ad exercitationem doloribus hic dolore vel, dicta quia labore, reiciendis cupiditate illo enim sint minima culpa commodi aperiam quaerat.</p>
+									</div>
 								</div>
-								<div class="texto-info">
-									<h4>Imaginamos y diseñamos</h4>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis esse totam ad exercitationem doloribus hic dolore vel, dicta quia labore, reiciendis cupiditate illo enim sint minima culpa commodi aperiam quaerat.</p>
-								</div>
-
-
-
-
-
-
 
 
 								<div class="contenido-info">
 									<div class="icono-info">
 										<i class="fa-solid fa-desktop"></i>
 									</div>
+									<div class="texto-info">
+										<h4>Creamos</h4>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis esse totam ad exercitationem doloribus hic dolore vel, dicta quia labore, reiciendis cupiditate illo enim sint minima culpa commodi aperiam quaerat.</p>
+									</div>
 								</div>
-								<div class="texto-info">
-									<h4>Creamos</h4>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis esse totam ad exercitationem doloribus hic dolore vel, dicta quia labore, reiciendis cupiditate illo enim sint minima culpa commodi aperiam quaerat.</p>
-								</div>
+
 
 
 
@@ -277,36 +293,37 @@
 
 
 					<!-- CONTACTO -->
-					<div class="contacto" id="contacto"></div>
-					<div class="contenedor">
-						<div class="contenedor-formulario">
-							<div class="formulario">
-								<h2>Cuentanos sobre tu proyecto</h2>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum reiciendis hic eveniet illo possimus quaerat rem! Ea recusandae vel earum repudiandae sapiente debitis, unde iure, accusantium enim saepe voluptatibus? Similique!</p>
-								<form>
-									<div>
-										<input type="text" name="nombre" placeholder="Nombre">
-									</div>
-									<div>
-										<input type="email" name="email" placeholder="Correo electronico">
-									</div>
+					<div class="contacto" id="contacto">
+						<div class="contenedor">
+							<div class="contenedor-formulario">
+								<div class="formulario">
+									<h2>Cuentanos sobre tu proyecto</h2>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum reiciendis hic eveniet illo possimus quaerat rem! Ea recusandae vel earum repudiandae sapiente debitis, unde iure, accusantium enim saepe voluptatibus? Similique!</p>
+									<form>
+										<div>
+											<input type="text" name="nombre" placeholder="Nombre">
+										</div>
+										<div>
+											<input type="email" name="email" placeholder="Correo electronico">
+										</div>
 
-									<div>
-										<textarea name="Mensaje" placeholder="Cuentanos de tu proyecto"></textarea>
-									</div>
-									<div>
-										<input type="submit" name="Enviar" value="Enviar">
-									</div>
+										<div>
+											<textarea name="Mensaje" placeholder="Cuentanos de tu proyecto"></textarea>
+										</div>
+										<div>
+											<input type="submit" name="Enviar" value="Enviar">
+										</div>
 
-								</form>
+									</form>
+								</div>
+
+
+
+								<div class="foto"></div>
+
+
+
 							</div>
-
-
-
-							<div class="foto"></div>
-
-
-
 						</div>
 					</div>
 
@@ -318,7 +335,7 @@
 				<!-- PIE DE PÁGINA -->
 
 				<footer>
-					
+
 					<div class="copy">
 						<p>Todos los derechos reservados</p>
 					</div>
@@ -334,8 +351,17 @@
 
 				</footer>
 
+				<script src="js/jquery-3.6.3.min.js"></script>
+				<script src="js/stickyHeader.js"></script>
+				<!-- <script src="js/banner.js"></script> -->
+				<script src="js/scrollSuave.js"></script>
 
-				<script type="js/prefixfree.min.js"></script>
+
+
+
+
+
+				<script src="js/prefixfree.min.js"></script>
 
 			</body>
 			</html>
